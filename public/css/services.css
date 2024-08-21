@@ -1,0 +1,27 @@
+h1, .points, .process, .services-container {
+    padding: 20px;
+}
+
+.points {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.point {
+    width: 400px
+}
+
+.process > ul {
+    list-style-type: none;
+}
+
+.process > ul > li {
+    width: 70%;
+}

@@ -130,11 +130,3 @@
         z-index: 1;
     }
 }
-
-.service {
-    width: 300px;
-    height: 300px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-radius: 10%;
-}
