@@ -21,7 +21,8 @@ body, section {
 }
 
 .header {
-    background-color: rgb(48, 155, 140);
+    padding: 20px;
+    background-color: rgb(66, 143, 194);
     height: 40vh;
     color: white;
 }
@@ -47,9 +48,9 @@ a {
 
 /* Footer styling */
 .footer {
-    background-color: rgb(48, 155, 140);
+    background-color: rgb(66, 143, 194);
     color: white;
-    height: 20vh;
+    height: fit-content;
     padding: 20px;
 }
 
