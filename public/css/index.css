@@ -3,7 +3,7 @@
 }
 
 .summary, .introduction > p, .payments, .portfolio,
-.services-container, .service {
+.services-container {
     padding: 20px
 }
 

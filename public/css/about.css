@@ -2,6 +2,10 @@ h1, .about, .work-container, .services-container {
     padding: 20px;
 }
 
+.about {
+    width: 50%;
+}
+
 .here {
-    color: rgb(0, 187, 187);
+    color: #2a3e97;
 }
