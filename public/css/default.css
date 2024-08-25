@@ -7,13 +7,29 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1, h2, h3 {
+a > i:hover {
+    opacity: 0.8;
+}
+
+button {
+    color: white;
+    background-color: rgb(20, 34, 98);
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 3px;
+}
+
+button:hover {
+    background-color: rgb(34, 56, 155);
+}
+
+h1, h2, h3, q {
     font-family: 'Anybody', sans-serif;
     letter-spacing: 0.1rem;
     font-size: 10rem;
 }
 
-h1 {
+h1, q {
     font-size: 2.5rem;
     font-weight: 1000;
     text-transform: uppercase;
@@ -34,10 +50,11 @@ h3 {
 .service {
     width: 300px;
     height: 300px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     border-radius: 10%;
     padding: 15px;
+    color: rgba(255, 255, 255, 0.925);
+    background-image: linear-gradient(rgb(20, 34, 98), rgb(41, 63, 158));
 }
 
 .logo {
@@ -81,6 +98,10 @@ body, section {
     padding: 7px;
 }
 
+.menu > li:hover {
+    opacity: 0.8;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -98,12 +119,26 @@ a {
     justify-content: space-between;
 } 
 
+.icons {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.icon {
+    font-size: 2.2rem;
+}
+
 .links {
     list-style-type: none;
 } 
 
 .links > li {
     padding: 7px;
+}
+
+.links > li:hover {
+    opacity: 0.8;
 }
 
 .copyright {
