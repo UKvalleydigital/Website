@@ -12,6 +12,7 @@ h1, .points, .process, .services-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 
 .point {

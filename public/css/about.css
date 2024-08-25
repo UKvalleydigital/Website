@@ -1,4 +1,4 @@
-h1, .about, .work-container, .services-container {
+h1, .about, .portfolio, .services-container {
     padding: 20px;
 }
 
@@ -8,4 +8,8 @@ h1, .about, .work-container, .services-container {
 
 .here {
     color: #2a3e97;
+}
+
+.services-container > h2 {
+    text-align: center;
 }
