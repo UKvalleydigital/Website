@@ -1,18 +1,3 @@
-/* Animations */
-
-h2 {
-    animation: 10s move-down 1 normal;
-}
-
-@keyframes move-down {
-    from {
-        transform: translateY(0);
-    }
-    to {
-        transform: translateY(30px);
-    }
-}
-
 .summary, .introduction > p, .payments {
     width: 50%;
 }
