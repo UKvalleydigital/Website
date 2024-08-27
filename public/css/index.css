@@ -1,3 +1,18 @@
+/* Animations */
+
+h2 {
+    animation: 10s move-down 1 normal;
+}
+
+@keyframes move-down {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(30px);
+    }
+}
+
 .summary, .introduction > p, .payments {
     width: 50%;
 }
@@ -28,6 +43,10 @@ q {
     background-color: white;
     padding: 15px;
     padding-bottom: -15px;
+}
+
+.here {
+    color: #2a3e97;
 }
 
 .payments {
