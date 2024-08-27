@@ -1,0 +1,14 @@
+h1 {
+    margin-bottom: 0;
+}
+
+.icons, .email, h1 {
+    padding: 20px;
+}
+
+.icons {
+    background-color: black;
+    width: 30%;
+    color: white;
+    min-height: fit-content;
+}

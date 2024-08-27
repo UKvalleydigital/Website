@@ -1,0 +1,45 @@
+.summary, .introduction > p, .payments {
+    width: 50%;
+}
+
+.summary, .introduction > p, .payments, .portfolio,
+.services-container {
+    padding: 20px
+}
+
+q {
+    font-size: xx-large;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 100px;
+}
+
+.grid-item {
+    width: 200px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.portfolio {
+    background-color: white;
+    padding: 15px;
+    padding-bottom: -15px;
+}
+
+.payments {
+    margin-left: auto;
+    margin-right: 0px;
+    width: 50%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px dashed black;
+}
+
+.services-container > h2 {
+    text-align: center;
+}

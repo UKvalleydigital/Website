@@ -1,0 +1,15 @@
+h1, .about, .portfolio, .services-container {
+    padding: 20px;
+}
+
+.about {
+    width: 50%;
+}
+
+.here {
+    color: #2a3e97;
+}
+
+.services-container > h2 {
+    text-align: center;
+}

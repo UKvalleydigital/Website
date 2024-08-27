@@ -1,0 +1,172 @@
+/* General styling*/
+@import '../node_modules/modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a > i:hover {
+    opacity: 0.8;
+}
+
+.part {
+    min-height: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+button {
+    color: white;
+    background-color: rgb(20, 34, 98);
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 3px;
+}
+
+button:hover {
+    background-color: rgb(34, 56, 155);
+}
+
+h1, h2, h3, q {
+    font-family: 'Anybody', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 10rem;
+}
+
+h1, q {
+    font-size: 2.5rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 750;
+    text-transform: uppercase;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.design {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.design > a {
+    color: rgb(20, 34, 98);
+    font-size: 1.5rem;
+    padding: 3px;
+}
+
+.service {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.925);
+    background-image: linear-gradient(rgb(20, 34, 98), rgb(41, 63, 158));
+}
+
+.logo {
+    border: 2px solid white;
+    width: fit-content;
+}
+
+a > img {
+    padding: 20px;
+}
+
+/* Header styling */
+body, section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.menu, .info {
+    display: flex;
+}
+
+.header {
+    padding: 20px;
+    background-color: black;
+    height: 40vh;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 2%;
+    flex-wrap: wrap;
+}
+
+.menu > li {
+    flex: 1 1 auto;
+    padding: 7px;
+}
+
+.menu > li:hover {
+    opacity: 0.8;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer styling */
+.footer {
+    background-color: black;
+    color: white;
+    height: fit-content;
+    padding: 20px;
+}
+
+.info {
+    justify-content: space-between;
+} 
+
+.icons {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.icon {
+    font-size: 2.2rem;
+}
+
+.links {
+    list-style-type: none;
+} 
+
+.links > li {
+    padding: 7px;
+}
+
+.links > li:hover {
+    opacity: 0.8;
+}
+
+.copyright {
+    margin-bottom: 20px;
+}

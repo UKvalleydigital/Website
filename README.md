@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <br/>
 <p align="center">
   <a href="https://codestitch.app/">
@@ -375,3 +376,8 @@ When you're happy with your website, you can deploy it to your hosting provider 
 9.  If you'd like to allow one-click login with services like Google and GitHub, check the boxes next to the services you'd like to use under **External providers**.
 10. Scroll down to **Services > Git Gateway**, and click **Enable Git Gateway**. This authenticates with your Git host and generates an API access token. In this case, we're leaving the **Roles** field blank, which means any logged-in user may access the CMS. For information on changing this, check the [Netlify Identity documentation](https://www.netlify.com/docs/identity/).
 11. Test the CMS by navigating to `/admin` on the deployed website
+=======
+# Website
+## Overview 
+This is my personal website!
+>>>>>>> b5bd6fa85974ffd68a2fe1f6f4a493ffdd0812e5
