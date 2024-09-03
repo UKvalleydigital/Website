@@ -1,9 +1,2 @@
-<<<<<<< HEAD
-.vscode
-.cache
-node_modules
-public
-=======
 # Remove node_modules from git
 node_modules
->>>>>>> b5bd6fa85974ffd68a2fe1f6f4a493ffdd0812e5
