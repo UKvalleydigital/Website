@@ -6,6 +6,10 @@ h1 {
     padding: 20px;
 }
 
+.email-link {
+    color: black;
+}
+
 .icons {
     background-color: black;
     width: 30%;

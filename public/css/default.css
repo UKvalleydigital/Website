@@ -3,11 +3,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+@keyframes underline {
+    0% {
+        text-decoration: none;
+    }
+
+    0.01% {
+        text-decoration: underline;
+    }
+
+    100% {
+        text-decoration: underline;
+    }
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-a > i:hover {
+p {
+    font-size: 1.2rem;
+}
+
+span > i:hover, a > i:hover {
     opacity: 0.8;
 }
 
@@ -58,19 +76,20 @@ h3 {
     flex-wrap: wrap;
     gap: 5px;
     justify-content: space-around;
+    font-size: 1.2rem;
 }
 
 .design {
-    width: 300px;
-    height: 300px;
+    width: 370px;
+    height: 370px;
     border: 1px solid black;
     padding: 20px;
 }
 
 
 .computer {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 190px;
     margin: 0 auto;
 }
 
@@ -88,11 +107,6 @@ h3 {
     padding: 15px;
     color: rgba(255, 255, 255, 0.925);
     background-image: linear-gradient(rgb(20, 34, 98), rgb(41, 63, 158));
-}
-
-.logo {
-    border: 2px solid white;
-    width: fit-content;
 }
 
 a > img {
@@ -127,17 +141,26 @@ body, section {
 }
 
 .menu > li {
+    font-size: 1.2rem;
     flex: 1 1 auto;
     padding: 7px;
 }
 
 .menu > li:hover {
-    opacity: 0.8;
+    animation: underline 100s normal;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    animation: underline 100s normal;
+}
+
+.none:hover {
+    animation: none;
 }
 
 /* Footer styling */
@@ -168,10 +191,11 @@ a {
 
 .links > li {
     padding: 7px;
+    font-size: 1.2rem;
 }
 
 .links > li:hover {
-    opacity: 0.8;
+    animation: underline 100s normal;
 }
 
 .copyright {

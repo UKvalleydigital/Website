@@ -4,7 +4,7 @@ h1, .points, .process, .services-container {
 
 .points {
     display: flex;
-    gap: 80px;
+    gap: 150px;
     flex-wrap: wrap;
 }
 
@@ -16,7 +16,9 @@ h1, .points, .process, .services-container {
 }
 
 .point {
-    width: 400px
+    width: 400px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .process > ul {
@@ -25,4 +27,10 @@ h1, .points, .process, .services-container {
 
 .process > ul > li {
     width: 70%;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+li > i {
+    padding: 7px;
 }
