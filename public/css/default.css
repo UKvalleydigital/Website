@@ -30,9 +30,10 @@ span > i:hover, a > i:hover {
 }
 
 .part {
-    min-height: 800px;
+    min-height: fit-content;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 10rem;
 }
 
 button {
@@ -109,10 +110,6 @@ h3 {
     background-image: linear-gradient(rgb(20, 34, 98), rgb(41, 63, 158));
 }
 
-a > img {
-    padding: 20px;
-}
-
 /* Header styling */
 body, section {
     display: flex;
@@ -129,6 +126,7 @@ body, section {
     background-color: black;
     height: 40vh;
     color: white;
+    width: 100%
 }
 
 .menu {

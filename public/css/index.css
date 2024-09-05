@@ -11,6 +11,20 @@ q {
     font-size: xx-large;
 }
 
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.caption {
+    font-size: 3rem;
+    width: 15%;
+}
+
+.caption-container > p {
+    width: 50%;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;

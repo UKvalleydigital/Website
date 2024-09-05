@@ -2,6 +2,10 @@ h1, .about, .portfolio, .services-container {
     padding: 20px;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 .about {
     width: 50%;
 }

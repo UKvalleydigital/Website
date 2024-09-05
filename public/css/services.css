@@ -19,6 +19,44 @@ h1, .points, .process, .services-container {
     width: 400px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    height: 300px;
+    font-size: 1.2rem;
+}
+
+.parent {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.child {
+    display: flex;
+    gap: 18rem;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1318px) {
+    .child {
+        display: flex;
+        gap: 18rem;
+        justify-content: flex-start;
+    }
+
+    .blog {
+        width: 400px;
+        height: 580px
+    }
+
+    .caption {
+        padding-left: 3px;
+    }
+}
+
+.caption {
+    width: 10%;
+    font-size: 3rem;
 }
 
 .process > ul {
