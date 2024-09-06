@@ -111,7 +111,7 @@ h3 {
 }
 
 /* Header styling */
-body, section {
+section {
     display: flex;
     flex-direction: column;
     gap: 20px;

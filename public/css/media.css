@@ -1,11 +1,10 @@
-
-
 /* Screen sizing */
-@media screen and (max-width: 669px) {
+@media screen and (max-width: 900px) {
     .services-container {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        align-items: center;
     }
 }
 

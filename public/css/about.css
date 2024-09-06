@@ -1,13 +1,56 @@
-h1, .about, .portfolio, .services-container {
+h1, .about, .portfolio, .services-container, .picture {
     padding: 20px;
-}
-
-h2 {
-    font-size: 3rem;
 }
 
 .about {
     width: 50%;
+}
+
+.picture {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.quote {
+    font-size: 3rem;
+}
+
+.quote, .picture > p {
+    width: 50%;
+}
+
+@media screen and (min-width: 0px) {
+    .features {
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 670px) {
+    .features {
+        width: 600px;
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .features {
+        width: 800px;
+        height: 570px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .features {
+        width: 1000px;
+        height: 720px;
+    }
+}
+
+.picture > p {
+    font-size: 2rem;
 }
 
 .here {

@@ -1,4 +1,4 @@
-.summary, .introduction > p, .payments {
+.left, .introduction > p, .payments {
     width: 50%;
 }
 
@@ -7,13 +7,43 @@
     padding: 20px
 }
 
+.summary {
+    display: flex;
+    gap: 10%;
+}
+
 q {
     font-size: xx-large;
+}
+
+.button > i {
+    padding-right: 7px;
 }
 
 .parent {
     display: flex;
     justify-content: center;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.button { 
+    border: black 1px solid;
+    padding: 7px;
+    font-size: 1.5rem;
+    background-size: 200% 100%; 
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 50%, white 50%),
+    linear-gradient(to right, white 50%, rgb(0, 0, 0) 50%);
+    transition: background-position 0.2s linear; 
+    -webkit-background-clip: text, border-box;
+    background-clip: text, border-box; 
+    color: transparent; 
+}
+
+.button:hover { 
+    background-position: -100% 0; 
 }
 
 .caption {
@@ -22,7 +52,7 @@ q {
 }
 
 .caption-container > p {
-    width: 50%;
+    width: 40%;
 }
 
 .grid {
