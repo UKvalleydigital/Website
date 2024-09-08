@@ -6,13 +6,46 @@ h1 {
     padding: 20px;
 }
 
+.email > h2 {
+    font-size: 3rem;
+}
+
+.email > p {
+    font-size: 1.5rem;
+}
+
 .email-link {
     color: black;
 }
 
 .icons {
+    margin-top: 20px;
     background-color: black;
-    width: 30%;
     color: white;
     min-height: fit-content;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1000px
+}
+
+.slide-container {
+    width: 40%;
+}
+
+.slide-left {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    min-height: 300px;
+}
+
+.slide-right {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    min-height: 300px;
 }
