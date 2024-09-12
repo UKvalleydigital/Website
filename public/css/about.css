@@ -21,14 +21,22 @@ h1, .about, .portfolio, .services-container, .picture {
     width: 50%;
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 300px) {
     .features {
-        width: 450px;
-        height: 300px;
+        width: 350px;
+        height: 230px;
+    }
+
+    .quote {
+        font-size: 2rem;
+    }
+
+    .picture > p {
+        font-size: 1.25rem;
     }
 }
 
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 680px) {
     .features {
         width: 600px;
         height: 450px;

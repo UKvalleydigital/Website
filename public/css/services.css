@@ -61,6 +61,25 @@ h1, .points, .process, .services-container {
     }
 }
 
+@media screen and (max-width: 700px) {
+    #special {
+        margin: 0;
+    }
+
+    .blog {
+        width: 300px;
+        height: 470px;
+    }
+
+    .child > h2 {
+        font-size: 2rem;
+    }
+
+    .child > p {
+        font-size: 1.5rem;
+    }
+}
+
 .caption {
     width: 10%;
     font-size: 3rem;
