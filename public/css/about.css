@@ -1,4 +1,4 @@
-h1, .about, .portfolio, .services-container, .picture {
+h1, .about, #portfolio, .services-container, .picture {
     padding: 20px;
 }
 

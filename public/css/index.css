@@ -2,7 +2,7 @@
     width: 50%;
 }
 
-.summary, .introduction > p, .payments, .portfolio,
+.summary, .introduction > p, .payments, #portfolio,
 .services-container, .slide-left, .slide-right {
     padding: 20px
 }
@@ -112,7 +112,7 @@ q {
     color: #2a3e97;
 }
 
-.portfolio {
+#portfolio {
     background-color: white;
     padding: 15px;
     padding-bottom: -15px;
