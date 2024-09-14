@@ -25,6 +25,10 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.here {
+    color: #435cca;
+}
+
 p {
     font-size: 1.2rem;
 }
@@ -37,7 +41,7 @@ span > i:hover, a > i:hover {
     min-height: fit-content;
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 10rem;
+    padding-bottom: 7rem;
 }
 
 button {
@@ -106,7 +110,6 @@ h3 {
 .service {
     width: 300px;
     height: 300px;
-    border: 1px solid black;
     border-radius: 10%;
     padding: 15px;
     color: rgba(255, 255, 255, 0.925);
