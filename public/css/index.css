@@ -1,3 +1,18 @@
+@media screen and (max-width: 970px) {
+    .pic {
+        display: none;
+    }
+
+    .slide-container {
+        justify-content: space-around
+    }
+
+    .slide-left, .slide-right {
+        min-width: 50% !important;
+    }
+
+}
+
 .left, .introduction > p, .payments {
     width: 50%;
 }
@@ -109,7 +124,7 @@ q {
 }
 
 .link {
-    color: #2a3e97;
+    color: #4764e7;
 }
 
 #portfolio {

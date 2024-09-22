@@ -108,6 +108,7 @@ h3 {
 }
 
 .service {
+    border: 2px solid white;
     width: 300px;
     height: 300px;
     border-radius: 10%;

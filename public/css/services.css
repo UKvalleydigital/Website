@@ -15,6 +15,23 @@ h1, .points, .process, .services-container {
     align-items: center;
 }
 
+.process-ul {
+    background-color: #142262;
+    outline: 2px white solid;
+    outline-offset: -20px;
+    color: white;
+    padding: 40px;
+}
+
+.process > p {
+    font-size: 1.4rem;
+}
+
+.warning {
+    color: rgb(177, 0, 0);
+    font-size: 1.4rem;
+}
+
 .point {
     width: 400px;
     border-top: 1px solid black;
