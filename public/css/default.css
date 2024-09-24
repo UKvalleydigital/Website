@@ -23,6 +23,7 @@ html {
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    max-width: fit-content;
 }
 
 .here {
@@ -174,7 +175,6 @@ a:hover {
     color: white;
     height: fit-content;
     padding: 20px;
-    min-width: 100%;
 }
 
 .info {
