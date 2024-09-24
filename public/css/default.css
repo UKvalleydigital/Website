@@ -123,6 +123,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    overflow: hidden;
 } 
 
 .menu, .info {
@@ -135,6 +136,7 @@ section {
     min-height: 40vh;
     color: white;
     min-width: 100%;
+    overflow: hidden;
 }
 
 .menu {
@@ -175,6 +177,7 @@ a:hover {
     color: white;
     height: fit-content;
     padding: 20px;
+    overflow: hidden;
 }
 
 .info {
