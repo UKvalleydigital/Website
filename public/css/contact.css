@@ -63,3 +63,8 @@ h1 {
     max-height: 45%;
     max-width: 100%;
 }
+
+.contact-footer {
+     position: relative;
+     z-index: 2;
+}

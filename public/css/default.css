@@ -187,6 +187,7 @@ a:hover {
     height: fit-content;
     padding: 20px;
     overflow: hidden;
+    z-index: 2;
 }
 
 .info {
