@@ -1,3 +1,28 @@
+@media screen and (max-width: 516px) {
+    body > .contact-section {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .contact-section > .slide-container {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .slide-left > p, .slide-right > p {
+        font-size: 1rem;
+    }
+
+    .slide-left > h2, .slide-right > h2, 
+    .left > .email > p {
+        font-size: 1.2rem;
+    }
+
+    body > .header > h1, .left >.email > h2 {
+        font-size: 2rem;
+    }
+}
+
 h1 {
     margin-bottom: 7px;
 }

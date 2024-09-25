@@ -49,11 +49,8 @@ q {
         width: 80%;
     }
 
-    .summary > .left > h1 {
-        font-size: 2rem;
-    }
-
-    .caption-container > .caption, .header > q{
+    .summary > .left > h1,
+    .caption-container > .caption, .header > q {
         font-size: 2rem;
     }
 }

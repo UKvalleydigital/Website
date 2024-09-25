@@ -29,6 +29,7 @@ h1, .about, #portfolio, .services-container, .picture {
 
     section > .picture {
         padding: 20px;
+        width: fit-content;
     }
 
     section > .picture > p {

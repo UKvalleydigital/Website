@@ -34,7 +34,7 @@
         height: 200px;
     }
 
-    header > .logo > a > img {
+    .header > .logo > a > img, .footer > .logo > a > img {
         width: 230px;
         height: 70px;
     }
