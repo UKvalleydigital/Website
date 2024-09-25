@@ -33,6 +33,11 @@
         width: 220px;
         height: 200px;
     }
+
+    header > .logo > a > img {
+        width: 230px;
+        height: 70px;
+    }
 }
 
 html {

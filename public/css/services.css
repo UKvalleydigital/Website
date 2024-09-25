@@ -1,3 +1,20 @@
+@media screen and (max-width: 478px) {
+    .points > .parent .point, .points > .point {
+        font-size: 1rem;
+        height: fit-content;
+        width: 300px;
+    }
+
+    .part, .process > .process-ul > li {
+        width: 95%;
+    }
+
+    .child > .blog {
+        width: 235px;
+        height: 360px;
+    }
+}
+
 h1, .points, .process, .services-container {
     padding: 20px;
 }

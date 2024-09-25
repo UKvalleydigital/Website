@@ -27,12 +27,20 @@ h1, .about, #portfolio, .services-container, .picture {
         height: 170px;
     }
 
-    .quote {
-        font-size: 2rem;
+    section > .picture {
+        padding: 20px;
     }
 
-    .picture > p {
+    section > .picture > p {
         font-size: 1.25rem;
+    }
+
+    .picture > .quote {
+        font-size: 1.5rem;
+    }
+
+    .part > .about {
+        width: 80%;
     }
 }
 
@@ -48,6 +56,10 @@ h1, .about, #portfolio, .services-container, .picture {
 
     .picture > p {
         font-size: 1.25rem;
+    }
+
+    .picture > .quote {
+        font-size: 1.5rem;
     }
 }
 
