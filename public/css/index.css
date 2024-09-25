@@ -35,6 +35,29 @@ q {
     padding-right: 7px;
 }
 
+@media screen and (max-width: 668px) {
+    .parent {
+        flex-wrap: wrap-reverse;
+    }
+
+    .parent > img {
+        width: 430px;
+        height: 440px;
+    }
+
+    .part > .payments {
+        width: 80%;
+    }
+
+    .summary > .left > h1 {
+        font-size: 2rem;
+    }
+
+    .caption-container > .caption, .header > q{
+        font-size: 2rem;
+    }
+}
+
 .parent {
     display: flex;
     justify-content: center;

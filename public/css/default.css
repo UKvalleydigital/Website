@@ -17,6 +17,24 @@
     }
 }
 
+@media screen and (max-width: 668px) {
+    .part:has(#portfolio) {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    #portfolio > .work-container > .design {
+        width: 350px;
+        height: 400px;
+        font-size: 1.2rem;
+    }
+
+    .work-container > .design > .computer {
+        width: 220px;
+        height: 200px;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -153,7 +171,7 @@ section {
     list-style-type: none;
     width: 30%;
     margin-left: auto;
-    margin-right: 2%;
+    margin-right: 5%;
     flex-wrap: wrap;
 }
 
