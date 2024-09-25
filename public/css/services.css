@@ -13,10 +13,6 @@
         width: 235px;
         height: 360px;
     }
-
-    body > .header > h1 {
-        font-size: 2rem;
-    }
 }
 
 h1, .points, .process, .services-container {
