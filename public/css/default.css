@@ -60,7 +60,8 @@
     }
 }
 
-.service > ul > button, .service > ul > li {
+.service > ul > button, .service > ul > li,
+.service > p {
     font-size: 1.1rem;
 }
 
