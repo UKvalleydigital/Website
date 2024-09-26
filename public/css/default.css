@@ -34,9 +34,29 @@
         height: 200px;
     }
 
+    .parent > .caption-container > p,
+    .parent > .caption-container > h2 {
+        width: 50%
+    }
+}
+
+@media screen and (max-width: 450px) {
     .header > .logo > a > img, .footer > .logo > a > img {
-        width: 230px;
-        height: 70px;
+        content: url('../images/logo-s.jpg');
+        width: 170px;
+    }
+
+    .slide-left > h2, .slide-right > h2 {
+        font-size: 1.3rem;
+    }
+
+    .slide-container > .slide-left > p, 
+    .slide-container > .slide-right > p {
+        font-size: 1.2rem;
+    }
+
+    .part > .introduction > p {
+        width: 80%;
     }
 }
 
@@ -152,6 +172,7 @@ section {
 
 .logo > a > img {
     border: 1px solid black;
+    width: 400px;
 }
 
 .logo > a > img:hover {

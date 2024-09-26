@@ -21,7 +21,7 @@ h1, .about, #portfolio, .services-container, .picture {
     width: 50%;
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 0px) and (max-width: 480px) {
     .features {
         width: 250px;
         height: 170px;
@@ -30,6 +30,7 @@ h1, .about, #portfolio, .services-container, .picture {
     section > .picture {
         padding: 20px;
         width: fit-content;
+        margin: 0 auto;
     }
 
     section > .picture > p {
@@ -45,7 +46,7 @@ h1, .about, #portfolio, .services-container, .picture {
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 680px) {
     .features {
         width: 340px;
         height: 225px;
@@ -64,14 +65,14 @@ h1, .about, #portfolio, .services-container, .picture {
     }
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 680px) and (max-width: 900px) {
     .features {
         width: 600px;
         height: 450px;
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) and (max-width: 1200px) {
     .features {
         width: 800px;
         height: 570px;
@@ -95,4 +96,13 @@ h1, .about, #portfolio, .services-container, .picture {
 
 .services-container > h2 {
     text-align: center;
+}
+
+.extra {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.extra > h3 {
+    text-decoration: underline;
 }
