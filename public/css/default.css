@@ -61,8 +61,8 @@
 }
 
 .service > ul > button, .service > ul > li,
-.service > p {
-    font-size: 1.1rem;
+.service > p, .service > button {
+    font-size: 1.07rem;
 }
 
 html {
